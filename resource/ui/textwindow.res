@@ -107,7 +107,29 @@
 		
 		
 	}
-	
+	"ok2" //dummy button to make the "E" key press continue
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ok2"
+		"xpos"			"9999"
+		"ypos"			"r40"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"&E"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
+		"command"		"okay"
+		"default"		"1"
+		"font"			"HudFontSmallBold"
+	}
 	"okbutton2" [$WIN32]
 	{
 		"ControlName"	"CExButton"

@@ -998,7 +998,25 @@
 		"Command"		"openloadout"
 		"font"			"HudFontSmall"
 	}
-
+	"EditLoadoutHotkey" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EditLoadoutHotkey"
+		"xpos"			"9999"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&E"
+		"textAlignment"	"center"
+		"Command"		"openloadout"
+		"font"			"HudFontSmall"
+	}
 	"ResetButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
