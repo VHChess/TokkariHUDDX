@@ -183,7 +183,7 @@
 		
 	}
 	
-	"CancelButton2" [$WIN32] 
+	"CancelButton2" [$WIN32] //repurposing for the same, refer to the snippet from resource/ui/textwindow.res
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton2"
@@ -194,12 +194,12 @@
 		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Back"
+		"labelText"		"&E"
 		"textAlignment"	"center"
-		"Command"		"back"
+		"Command"		"continue"
 		"font"			"HudFontSmall"
 		"fgcolor_override" "200 80 60 255"
 	}
